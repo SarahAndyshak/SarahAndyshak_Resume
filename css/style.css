@@ -35,11 +35,19 @@ ul {
   border-right: 1px solid rgba(0, 0, 0, .05);
   float: right;
   height: 100%;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: -1px;
   min-width: 256px;
   position: fixed;
   width: 33.33%;
+}
+
+.left h1 {
+  font-family: 'Trocchi', serif;
+  text-align: center;
+}
+.left p {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
 .right {
