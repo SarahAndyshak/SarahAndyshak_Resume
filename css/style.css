@@ -15,9 +15,9 @@ html {
 }
 
 h1 {
-  /* font-family: 'Milonga', cursive; */
   font-family: 'Trocchi', serif;
 }
+
 h2 {
   font-family: 'Trocchi', serif;
 }
@@ -33,14 +33,25 @@ li {
 ul {
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+  /* font-size: larger; */
+  font-weight: 600;
+  color: rgb(60, 105, 144);
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(56, 164, 26);
+}
 
 .wrapper {
   height: 100%;
 }
 
 .left {
-  background-color: rgba(0, 0, 0, .025);
-  border-right: 1px solid rgba(0, 0, 0, .05);
+  /* background-color: rgba(0, 0, 0, 0.025); */
+  /* background-color: rgba(253, 238, 124, 0.3); */
+  border-right: 1px solid rgba(0, 0, 0, .2);
   float: right;
   height: 100%;
   margin-left: -1px;
@@ -48,6 +59,9 @@ ul {
   position: fixed;
   width: 33.33%;
   text-align: center;
+  padding-top: 5em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 .left h1 {
@@ -75,20 +89,21 @@ img {
 }
 
 .projects {
-  /* background: linear-gradient(to bottom right, #ffff99 30%, goldenrod 100%);
-  opacity: 0.8; */
-  border: 2px solid goldenrod;
+  background: linear-gradient(to bottom right, rgb(160, 203, 241) 30%, rgb(45, 72, 96) 100%);
+  opacity: 0.8;
+  /* border: 2px solid rgb(45, 48, 96); */
   border-radius: 0.75rem;
   border-radius: 0.95rem;
   text-align: center;
   align-items: center;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 1rem;
 }
 .projects li{
-  background: #c3d4cd;
+  background: #faf083;
   border-radius: 5px;
-  color: #424644;
+  color: rgb(45, 48, 96);
   display: inline-block;
   list-style: none;
   margin: 15px 15px 0 0;
@@ -97,9 +112,9 @@ img {
 }
 
 .skill-set li {
-  background: #c3d4cd;
+  background: rgb(167, 198, 226);
   border-radius: 5px;
-  color: #424644;
+  color: black;
   display: inline-block;
   list-style: none;
   margin: 15px 15px 0 0;
@@ -109,7 +124,8 @@ img {
 
 /* Collapsibles */
 .collapsible {
-  background-color: #c3d4cd;
+  background-color: rgb(144, 176, 205);
+  /* background: linear-gradient(to bottom right, rgb(160, 203, 241) 30%, rgb(84, 117, 145) 100%); */
   color: black;
   font-family: 'Trocchi', serif;
   padding: 18px;
@@ -123,7 +139,7 @@ img {
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: rgb(84, 117, 145);
 }
 
 .content {
@@ -131,7 +147,7 @@ img {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: rgb(232, 240, 247);
   font-family: 'Raleway', sans-serif;
 }
 
