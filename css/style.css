@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
+
+
+h1 {
+  /* font-family: 'Milonga', cursive; */
+  font-family: 'Trocchi', serif;
+}
+
+h2 {
+  font-family: 'Trocchi', serif;
+}
+
+h3 {
+  font-family: 'Trocchi', serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+li {
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.left {
+  background-color: rgba(0, 0, 0, .025);
+  border-right: 1px solid rgba(0, 0, 0, .05);
+  float: right;
+  height: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  min-width: 256px;
+  position: fixed;
+  width: 33.33%;
+}
+
+.right {
+  float: right;
+  height: 100%;
+  position: relative;
+  width: 66.66%;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 975px;
+  padding: 3em;
+}
+
+.skill-set li {
+  background: #c3d4cd;
+  border-radius: 5px;
+  color: #424644;
+  display: inline-block;
+  list-style: none;
+  margin: 15px 15px 0 0;
+  padding: 10px;
+  text-align: justify;
+}
+
+/* .grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+} */
