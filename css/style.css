@@ -4,30 +4,38 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
 
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
 
 h1 {
   /* font-family: 'Milonga', cursive; */
   font-family: 'Trocchi', serif;
 }
-
 h2 {
   font-family: 'Trocchi', serif;
 }
-
 h3 {
   font-family: 'Trocchi', serif;
 }
-
 p {
   font-family: 'Raleway', sans-serif;
 }
-
 li {
   font-family: 'Raleway', sans-serif;
 }
-
 ul {
   list-style-type: none;
+}
+
+.wrapper {
+  height: 100%;
 }
 
 .left {
@@ -39,15 +47,18 @@ ul {
   min-width: 256px;
   position: fixed;
   width: 33.33%;
+  text-align: center;
 }
 
 .left h1 {
   font-family: 'Trocchi', serif;
-  text-align: center;
 }
 .left p {
   font-family: 'Raleway', sans-serif;
-  text-align: center;
+}
+
+img {
+  height: 200px;
 }
 
 .right {
@@ -63,6 +74,28 @@ ul {
   padding: 3em;
 }
 
+.projects {
+  /* background: linear-gradient(to bottom right, #ffff99 30%, goldenrod 100%);
+  opacity: 0.8; */
+  border: 2px solid goldenrod;
+  border-radius: 0.75rem;
+  border-radius: 0.95rem;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+.projects li{
+  background: #c3d4cd;
+  border-radius: 5px;
+  color: #424644;
+  display: inline-block;
+  list-style: none;
+  margin: 15px 15px 0 0;
+  padding: 10px;
+  text-align: justify;
+}
+
 .skill-set li {
   background: #c3d4cd;
   border-radius: 5px;
@@ -74,8 +107,76 @@ ul {
   text-align: justify;
 }
 
-/* .grid-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1rem;
-} */
+/* Collapsibles */
+.collapsible {
+  background-color: #c3d4cd;
+  color: black;
+  font-family: 'Trocchi', serif;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  margin: 15px 15px 0 0;
+  border-radius: 5px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* dealing with screen width */
+@media screen and (max-width: 48em) {
+  .right, .left {
+    float: none;
+    position: relative !important;
+    width: 100%;
+    min-height: 500px;
+  }
+
+  /* .handmade {
+    text-align: center !important;
+    margin-top: 0px !important;
+  } */
+
+  @media screen and (max-width: 75em) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 60em) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+  .clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
+
+  /* .handmade {
+    text-align: right;
+    margin-top: 100px;
+  }
+
+  .handmade em {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.25em;
+    margin-left: 5px;
+  } */
+}
