@@ -50,7 +50,7 @@ a:hover {
 
 .left {
   /* background-color: rgba(0, 0, 0, 0.025); */
-  /* background-color: rgba(253, 238, 124, 0.3); */
+  background-color: rgba(253, 238, 124, 0.3);
   border-right: 1px solid rgba(0, 0, 0, .2);
   float: right;
   height: 100%;
@@ -101,7 +101,8 @@ img {
   padding-left: 1rem;
 }
 .projects li{
-  background: #faf083;
+  /* background: #faf083; */
+  background-color: rgb(253, 244, 171);
   border-radius: 5px;
   color: rgb(45, 48, 96);
   display: inline-block;
