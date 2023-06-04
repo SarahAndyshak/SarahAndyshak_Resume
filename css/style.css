@@ -152,6 +152,15 @@ img {
   font-family: 'Raleway', sans-serif;
 }
 
+.footer {
+  margin: 2rem;
+  margin-top: 5rem;
+  color:rgb(45, 72, 96);
+}
+.footer p {
+  font-family: 'Trocchi', serif;
+}
+
 /* dealing with screen width */
 @media screen and (max-width: 48em) {
   .right, .left {
