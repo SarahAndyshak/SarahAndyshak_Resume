@@ -13,7 +13,7 @@ _Learn more about my skills and experience here:_
 
 ### To view the resume online
 
-* [Visit the link here]()
+* [Visit the link here](https://sarah-andyshak-resume.vercel.app/)
 
 ### To use the resume as a template
 
