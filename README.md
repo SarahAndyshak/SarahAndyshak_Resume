@@ -8,6 +8,7 @@ _Learn more about my skills and experience here:_
 * HTML
 * CSS
 * Minimal JavaScript
+* Sunflower favicon from [Icons8](https://icons8.com/icon/pQpbLlaCe6sP/sunflower)
 
 ## Setup/Installation Requirements
 
